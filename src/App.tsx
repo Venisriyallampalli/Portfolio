@@ -115,7 +115,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="min-h-screen flex items-center justify-center pt-20">
+      <section id="home" className="min-h-screen flex items-center justify-center pt-20 bg-gradient-to-b from-rose-200 to-rose-100">
         <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row gap-12 items-center">
           <div className="space-y-8 flex-1 min-w-0">
             <div className="space-y-4">
@@ -232,7 +232,7 @@ function App() {
 
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 bg-stone-50">
+      <section id="portfolio" className="py-20 bg-gradient-to-r from-stone-200 via-pink-100 to-stone-100">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16 items-center">
             <h2 className="text-4xl font-bold mb-4 tracking-wide">PORTFOLIO</h2>
@@ -302,7 +302,7 @@ function App() {
       </section>
 
       {/* Education Section */}
-      <section id="contact" className="py-20 bg-white">
+      <section id="contact" className="py-20 bg-stone-150">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 tracking-wide">GET IN TOUCH</h2>
@@ -366,4 +366,4 @@ function App() {
   );
 }
 
-export default App;
+export default App;  
